@@ -1,0 +1,58 @@
+h2{
+    color: var(--mz-text);
+    font-size: 2.5rem !important;
+}
+h3{
+    font-size: 1.3rem !important;
+}
+.mz-img-back{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+/* -------- top introduction -------- */
+.mz-top-ex{
+    background-image: url(../images/BARSGAR/MAIN.jpg);
+}
+/* -------- introduction -------- */
+.mz-intro{
+    background-color: var(--mz-filter-bg-color);
+}
+.mz-intro::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: linear-gradient(to top ,var, transparent);
+    opacity: 0.5;
+    width: 100%;
+    height: 100%;
+}
+.mz-intro img{
+    width: 100%;
+}
+.mz-intro h3{
+    color: var(--mz-text);
+}
+.mz-img-info{
+    height: 100%;
+    margin-left: -80%;
+    z-index: 1;
+}
+.mz-border-info{
+    width: 90%;
+    height: 100%;
+    margin-top: 10%;
+    border: 5px solid var(--mz-text);
+    position: absolute;
+    position: relative;
+}
+.mz-border-info img{
+    width: 10%;
+    position: absolute;
+    left: 0px; bottom: 0px;
+}
+.mz-page{
+    position: relative;
+}

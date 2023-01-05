@@ -1,0 +1,68 @@
+h2{
+    color: var(--mz-text);
+}
+.mz-img-back{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+/* -------- top introduction -------- */
+.mz-top-ex{
+    background-image: url(../images/interior.jpg);
+}
+.mz-intro{
+    background-color: var(--mz-filter-bg-color);
+}
+.mz-intro h3{
+    color: var(--mz-text);
+}
+
+/* -------- skills -------- */
+.mz-rectangle {
+    display: inline-block;
+    width: 15px; height: 10px;
+    border-radius: 3px;
+    background-color: var(--mz-h3SP-color);
+  }
+  .mz-rectangle-E{
+    display: inline-block;
+    width: 15px; height: 10px;
+    border-radius: 3px;
+    border: 3px solid var(--mz-h3SP-color);
+  }
+.mz-btn{
+    background-color: var(--mz-filter-bg-color) !important;
+    color: var(--mz-text);
+    height: 50px;
+    border-radius: 10px;
+    position: sticky;
+    z-index: 1;
+    font-size: 0.8rem;
+}
+.mz-stars{
+    visibility: hidden;
+    position: relative;
+}
+.mz-btn:hover+.mz-stars{
+    visibility: visible;
+    animation-name: mz-star-anim;
+    animation-duration: 2s;
+}
+.mz-btn:hover+.mz-stars {animation-timing-function: linear;}
+
+@keyframes mz-star-anim{
+    from   {top:-25px}
+    to  { top:5px}
+}
+.mz-skill-box{
+    background-color: var(--mz-box);
+}
+.mz-skill-box h4{
+    color: var(--mz-text);
+}
+.mz-skill-box p{
+    color: var(--mz-text);
+    border-top: 1px solid var(--mz-text);
+}
+/* -------- pie chart -------- */

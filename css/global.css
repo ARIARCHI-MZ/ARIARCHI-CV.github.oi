@@ -1,0 +1,31 @@
+:root{
+    --mz-filter-bg-color: #3F4D62;
+    --mz-h3SP-color: #E4B4BE;
+    --mz-text: white; 
+    --mz-line: #65505F;
+    --mz-box:#885D67;
+    --mz-dark-filter:rgb(63 , 77 , 98 ,0.5) ;
+    --mz-Vdark-filter:rgb(63 , 77 , 98 ,0.7) ;
+}
+body{
+    font-family: monospace;
+}
+p{
+    text-align: justify;
+}
+.mz-hover-dark:hover{
+    background-color: var(--mz-filter-bg-color) !important;
+    transition: all 1s ;
+}
+.mz-hover-dark-t:hover{
+    color: var(--mz-h3SP-color) !important;
+    transition: all 1s ;
+}
+.mz-hover-light:hover{
+    background-color: var(--mz-h3SP-color) !important;
+    transition: all 1s ;
+}
+.mz-hover-light-t:hover{
+    color: var(--mz-filter-bg-color) !important;
+    transition: all 1s ;
+}

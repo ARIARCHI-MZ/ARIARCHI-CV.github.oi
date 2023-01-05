@@ -1,0 +1,58 @@
+h2{
+    color: var(--mz-text);
+}
+.mz-img-back{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+/* -------- top introduction -------- */
+.mz-top-ex{
+    background-image: url(../images/post\ pro.jpg);
+}
+.mz-intro{
+    background-color: var(--mz-filter-bg-color);
+}
+.mz-intro h3{
+    color: var(--mz-text);
+}
+
+/* -------- skills -------- */
+.mz-rectangle {
+    display: inline-block;
+    width: 22px; height: 12px;
+    border-radius: 3px;
+    background-color: var(--mz-h3SP-color);
+  }
+.mz-btn{
+    background-color: var(--mz-filter-bg-color) !important;
+    color: var(--mz-text);
+    height: 50px;
+    border-radius: 10px;
+}
+.mz-stars{
+    visibility: hidden;
+}
+.mz-btn:hover+.mz-stars{
+    visibility: visible;
+    animation-name: mz-star-anim;
+    animation-duration: 2s;
+}
+@keyframes mz-star-anim{
+    0%   {left:-100px; top:0px;}
+    25%  { left:-75px; top:0px;}
+    50%  { left:-50px; top:0px;}
+    75%  { left:-25px; top:0px;}
+    100% { left:0px; top:0px;}
+}
+.mz-skill-box{
+    background-color: var(--mz-box);
+}
+.mz-skill-box h4{
+    color: var(--mz-text);
+}
+.mz-skill-box p{
+    color: var(--mz-text);
+    border-top: 1px solid var(--mz-text);
+}

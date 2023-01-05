@@ -1,0 +1,168 @@
+h2{
+    color: var(--mz-text);
+}
+/* -------- introduction -------- */
+.mz-top-ex{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(../images/teacher/main.jpg);
+    position: relative;
+}
+.mz-intro{
+    background-color: var(--mz-filter-bg-color);
+}
+.mz-exp{
+    background-color: var(--mz-box);
+    opacity: 0.8;
+    z-index: 1;
+    border-radius: 10px;
+}
+.mz-exp h4{
+    color: var(--mz-text);
+}
+.mz-exp i{
+    color: var(--mz-text);
+}
+.mz-exp h5{
+    color: var(--mz-text);
+    font-weight: bolder;
+}
+.mz-t-ex:hover i{
+    color: var(--mz-h3SP-color);
+}
+
+.accordion{
+    border: none;
+}
+.accordion button{
+    background-color: var(--mz-box) !important;
+    color: var(--mz-text) !important;
+}
+.accordion button::after{
+    background-color: var(--mz-text) !important;
+    opacity: 0.5;
+}
+.accordion div{
+    background-color: var(--mz-filter-bg-color) !important;
+}
+.accordion-header:active{
+    background-color: var(--mz-filter-bg-color) !important;
+}
+.accordion div ul li{
+    color: var(--mz-text) !important;
+}
+
+/* -------- profesional -------- */
+.mz-profesional{
+    position: relative;
+}
+.mz-profesional-img{ 
+    background-color: var(--mz-h3SP-color);
+    float: right;
+}
+.mz-profesional-img-l{
+    background-color: var(--mz-h3SP-color);
+    float: left;
+}
+.mz-profesional-img img{
+    width: 100%; height: 100%;
+    float: left;
+}
+.mz-profesional-img:hover{
+    box-shadow: 10px 10px 30px var(--mz-filter-bg-color);
+    transition: 1s all;
+}
+.mz-profesional-img-l img{
+    width: 100%; height: 100%;
+    float: left;
+}
+.mz-profesional-b-t{
+    background-color: var(--mz-filter-bg-color);
+    float: left;
+}
+.mz-profesional-b-t-l{
+    background-color: var(--mz-filter-bg-color);
+    float: right;
+    z-index: 20;
+}
+.mz-profesional-t{
+    width: 100%; 
+    float: right;
+    background-color: var(--mz-h3SP-color);
+    color: var(--mz-filter-bg-color) !important;
+
+}
+.mz-prof-position-img-l{
+    float: right;
+}
+.mz-profesional-t p{
+    color: var(--mz-filter-bg-color) !important;
+}
+.mz-profesional-t a{
+    color: var(--mz-filter-bg-color) !important;
+    text-decoration: none;
+}
+.mz-profesional-t-l{
+    width: 100%; height: 100%;
+    background-color: var(--mz-h3SP-color);
+    color: var(--mz-filter-bg-color) !important;
+    float: right;
+}
+.mz-profesional-t-l p{
+    color: var(--mz-filter-bg-color) !important;
+}
+.mz-profesional-t-l a{
+    color: var(--mz-filter-bg-color) !important;
+    text-decoration: none;
+}
+/* -------- skill hover -------- */
+.mz-exp-hover:hover p{
+ color: var(--mz-h3SP-color) !important;
+transition: 1s all;
+}
+.mz-exp-hover:hover a{
+    color: var(--mz-h3SP-color) !important;
+    transition: 1s all;
+}
+.mz-exp-hover:hover h5{
+    color: var(--mz-h3SP-color) !important;
+    transition: 1s all;
+}
+/* -------- software -------- */
+.mz-rectangle {
+    display: inline-block;
+    width: 15px; height: 10px;
+    border-radius: 3px;
+    background-color: var(--mz-filter-bg-color);
+  }
+  .mz-rectangle-E{
+    display: inline-block;
+    width: 15px; height: 10px;
+    border-radius: 3px;
+    border: 3px solid var(--mz-filter-bg-color);
+  }
+.mz-btn{
+    background-color: var(--mz-filter-bg-color) !important;
+    color: var(--mz-text);
+    height: 50px;
+    border-radius: 10px;
+    position: sticky;
+    z-index: 1;
+    font-size: 0.8rem;
+}
+.mz-stars{
+    visibility: hidden;
+    position: relative;
+}
+.mz-btn:hover+.mz-stars{
+    visibility: visible;
+    animation-name: mz-star-anim;
+    animation-duration: 2s;
+}
+.mz-btn:hover+.mz-stars {animation-timing-function: linear;}
+
+@keyframes mz-star-anim{
+    from   {top:-25px}
+    to  { top:5px}
+}

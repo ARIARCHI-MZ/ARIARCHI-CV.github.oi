@@ -1,0 +1,181 @@
+
+h2{
+    font-size: 1.5rem !important;
+    transform: scaleY(1.5)  !important;
+}
+p{
+    font-size: 0.8rem !important;
+}
+h3{
+    font-size: 1.2rem !important;
+    transform: scaleY(1.5)  !important;
+}
+h4{
+    font-size: 1rem !important;
+    transform: scaleY(1.5)  !important;
+}
+h5{
+    font-size: 0.9rem !important;
+    font-weight: bold;
+}
+    /* -------- logo -------- */
+    .mz-logo>img{
+        width: 75px; height: 75px;
+    }
+    .mz-SM{
+        width: 75px !important ; height: 510px !important;
+        position: absolute;
+        top: 75px; left: 0;
+    }
+    .mz-b-CONTACT{
+        margin-left: 80px;
+    }
+    /* -------- Arch intro icon -------- */
+    .mz-exp i{
+        font-size: 20px;
+    }
+/* -------- Arch profesional -------- */
+
+.mz-prof-position-img-l{
+    height: 300px;
+    width: 100%;
+}
+.mz-box-position-t{
+    height: auto;
+}
+.mz-prof-position-t{
+    margin-top: 0px !important;
+    height: 200px;
+    width: 100%; 
+    z-index: 20;
+}
+.mz-box-t{
+    margin-top: 0px !important;
+    height: 200px;
+    width: 100%; 
+    z-index: 20;
+}
+.mz-prof-po-b-t-l{
+    width: 100%; 
+    right: 0px;
+}
+
+
+
+
+@media (min-width: 576px) { 
+    
+ }
+
+
+@media (min-width: 768px) { 
+    h2{
+        font-size: 2.5rem !important;
+        transform: scaleY(1.5)  !important;
+    }
+    p{
+        font-size: 1rem !important;
+    }
+    h3{
+        font-size: 2rem !important;
+        transform: scaleY(1.5)  !important;
+    }
+    h4{
+        font-size: 1.5rem !important;
+        transform: scaleY(1.5)  !important;
+    }
+    h5{
+        font-size: 1rem !important;
+        font-weight: bold;
+    }
+    /* -------- logo -------- */
+    .mz-logo>img{
+        width: 120px; height: 120px;
+        margin: 10px 25px 25px 0px;
+    }
+    .mz-SM{
+        width: 75px !important ; 
+        position: absolute;
+        top: 150px; left: 0;
+    }
+    .mz-b-CONTACT{
+        margin-left: 150px;
+    }
+    /* -------- Arch profesional -------- */
+    .mz-exp i{
+        font-size: 40px;
+    }
+    .mz-prof-position-img-l{
+        height: 400px;
+        width: 80%;
+    }
+
+    .mz-prof-position-t{
+        height: 300px;
+        margin-top: 50px !important;
+        width: 40%; 
+        position: absolute;
+        z-index: 20;
+        box-shadow: 10px 10px 30px var(--mz-box);
+    }
+    .mz-box-t{
+        height: 300px;
+        margin-top: 150px !important;
+        width: 40%; 
+        position: absolute;
+        z-index: 20;
+        box-shadow: 10px 10px 30px var(--mz-box);
+    }
+ }
+
+
+@media (min-width: 992px) { 
+       /* -------- Arch profesional -------- */
+    .mz-prof-position-img-l{
+        height: 500px;
+        width: 80%;
+    }
+    .mz-prof-position-t{
+        height: 300px;
+        margin-top: 100 !important;
+    }
+    .mz-box-t{
+        height: 300px;
+        margin-top: 100 !important;
+    }
+
+    .mz-prof-po-b-t-l{
+        width: 40%; 
+        position: absolute;
+        right: 0px;
+        box-shadow: 10px 10px 30px var(--mz-box);
+    }
+
+ }
+
+@media (min-width: 1200px) {
+    h2{
+        font-size: 3rem !important;
+        transform: scaleY(1.5)  !important;
+    }
+    p{
+        font-size: 1rem !important;
+    }
+    h3{
+        font-size: 2rem !important;
+        transform: scaleY(1.5)  !important;
+    }
+    h4{
+        font-size: 1.15rem !important;
+        transform: scaleY(1.5)  !important;
+    }
+    .mz-box-position-t{
+        height: 525px;
+    }
+ }
+
+@media (min-width: 1400px) { 
+    .mz-nav-ul li{ 
+        padding-right: 20px; padding-left: 20px;
+    }
+ }

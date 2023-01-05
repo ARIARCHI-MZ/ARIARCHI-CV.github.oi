@@ -1,0 +1,213 @@
+
+p{
+    color: var(--mz-text);
+    font-size: 1rem;
+}
+
+h2{
+    color: var(--mz-text);
+}
+
+h3{
+    font-size: 3rem !important;
+}
+
+h4{
+    font-size: 2rem !important;
+    z-index: 1;
+    transform: scaleY(2rem)
+}
+
+h5{
+    font-size: 1.5rem !important;
+}
+
+h3>span{
+    color: var(--mz-h3SP-color);
+}
+
+/* -------- hover -------- */
+
+
+.dropdown ul li a:hover{
+    background-color: var(--mz-filter-bg-color)!important;
+    transition: all 1s ;
+}
+.navbar-toggler:hover{
+    background-color: var(--mz-text) !important;
+    transition: all 1s ;
+}
+.mz-SM span:hover{
+    color: var(--mz-text);
+    transition: all 1s ;
+}
+/* -------- about me -------- */
+
+.mz-about{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(../images/bck\ home.jpg);
+    position: relative;
+}
+.mz-top-f::after{
+    content: "";
+    width: 100%; height: 100%;
+    background-color: var(--mz-filter-bg-color) !important;
+    opacity: 0.7;
+    position: absolute;
+    top: 0; left: 0;
+}
+.mz-about-t{
+    direction: rtl;
+    z-index: 1;
+    
+}
+.mz-about-t-r{
+    height: 450px;
+}
+/* -------- nav -------- */
+.ma-nav{
+    direction: rtl;
+
+}
+.mz-nav-ul li{
+    z-index: 4; 
+}
+
+
+.mz-nav-ul a{
+    color: var(--mz-text) !important;
+}
+
+
+a>i{
+    color: var(--mz-text);
+    padding: 10px;
+}
+
+.dropdown ul{
+    background-color: var(--mz-filter-bg-color);
+    margin-top: 0 !important;
+}
+.dropdown ul li a{
+    direction: rtl !important;
+}
+
+.navbar-toggler{
+    background-color: var(--mz-h3SP-color) !important;
+    z-index: 3;
+}
+
+.mz-b-CONTACT{
+    background-color: var(--mz-filter-bg-color) !important;
+    border: 0 ;
+    z-index: 2;
+    height: 50px;
+    border-radius: 10px;
+}
+.mz-b-CONTACT a{
+    text-decoration: none;
+    color: var(--mz-text) !important;
+    padding: 5px;
+
+}
+/* -------- logo -------- */
+.mz-logo{
+    position: absolute;
+    top: 0; left: 0;
+    background-color: var(--mz-filter-bg-color);
+    z-index: 2;
+}
+
+/* -------- social media -------- */
+.mz-SM{
+    background-color: var(--mz-filter-bg-color);
+    z-index: 1;
+}
+.mz-SM span{
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    display: block;
+    font-size: 0.9rem;
+    padding-left: 20px;
+}
+
+.mz-SM div{
+    width: 35px;
+    height: 50px;
+    margin-left: 15px;
+    opacity: 0.3;
+}   
+
+.mz-SM i{
+    padding-left: 25px;
+}
+
+/* -------- skills -------- */
+.mz-skills{
+    background-color: var(--mz-filter-bg-color);
+    color: var(--mz-text) !important;
+}
+ul{
+    list-style: none;
+    padding-left: 0px !important;
+}
+.mz-skill-i{
+    height: 50px;
+}
+.text-a{
+    z-index: 10;
+}
+/* -------- skills example -------- */
+
+.mz-Sk-ex{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 500px;
+    position: relative;
+    z-index: 1;
+}
+.mz-Sk-ex::after{
+    content: "";
+    width: 100%; height: 100%;
+    background-color: var(--mz-filter-bg-color) !important;
+    opacity: 0.7;
+    position: absolute;
+    top: 0; left: 0;
+    z-index: -1;
+}
+.mz-Sk-ex:hover::after{
+    content: "";
+    width: 100%; height: 100%;
+    background-color: var(--mz-filter-bg-color) !important;
+    opacity: 0;
+    position: absolute;
+    top: 0; left: 0;
+    transition: all 1s;
+}
+.mz-Sk-ex:hover H4{
+    color: var(--mz-filter-bg-color);
+    transition: all 1s;
+}
+.mz-Sk-ex H4{
+    color: var(--mz-text);
+    font-size: 1.2rem !important;
+    padding-top: 10px;padding-left: 10px;
+}
+.mz-Sk-ex H5{
+    transform-origin: 220px 220px;
+    transform: rotate(270deg) !important;
+    font-size: 1rem !important;
+    color: var(--mz-text);
+    position: absolute;
+}
+.mz-Sk-ex:hover H5{
+    color: var(--mz-filter-bg-color);
+    transition: all 1s;
+}
+/* -------- footer -------- */
+#footer{
+    background-color: var(--mz-filter-bg-color);
+}
