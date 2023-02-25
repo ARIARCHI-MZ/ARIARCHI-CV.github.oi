@@ -193,15 +193,19 @@ ul{
 }
 .mz-Sk-ex H4{
     color: var(--mz-text);
-    font-size: 1.2rem !important;
+    font-size: 1rem !important;
     padding-top: 10px;padding-left: 10px;
 }
 .mz-Sk-ex H5{
-    transform-origin: 220px 220px;
-    transform: rotate(270deg) !important;
+    /* transform-origin: 220px 220px; */
+    /* transform: rotate(270deg) ; */
     font-size: 1rem !important;
+    writing-mode: vertical-rl;
+    transform: rotate(180deg) !important;
     color: var(--mz-text);
     position: absolute;
+    bottom: 10px;
+    left: -10px;
 }
 .mz-Sk-ex:hover H5{
     color: var(--mz-filter-bg-color);

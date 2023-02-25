@@ -1,6 +1,6 @@
 
 h2{
-    font-size: 1.5rem !important;
+    font-size: 1.1rem !important;
     transform: scaleY(1.5)  !important;
 }
 p{
@@ -120,7 +120,7 @@ h5{
     }
     .mz-box-t{
         height: 300px;
-        margin-top: 150px !important;
+        margin-top: 50px !important;
         width: 40%; 
         position: absolute;
         z-index: 20;
@@ -141,7 +141,7 @@ h5{
     }
     .mz-box-t{
         height: 300px;
-        margin-top: 100 !important;
+        margin-top: 70px !important;
     }
 
     .mz-prof-po-b-t-l{
@@ -170,7 +170,7 @@ h5{
         transform: scaleY(1.5)  !important;
     }
     .mz-box-position-t{
-        height: 525px;
+        height: 450px;
     }
  }
 
